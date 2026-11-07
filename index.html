@@ -169,6 +169,10 @@
   .st1{background:var(--lav)} .st2{background:var(--sage)}
   .sth{font-family:"Hiragino Mincho ProN",serif;font-size:13px;letter-spacing:.14em;color:var(--sub);margin-top:30px}
   .sth+h3{font-size:22px;margin:2px 0 10px}
+  .callout{position:relative;background:#fff;border:1.5px solid #d9cba8;border-radius:18px;padding:26px 10px 20px;margin:6px 0 0;box-shadow:0 6px 16px rgba(80,60,20,.08)}
+  .callout::after{content:"";position:absolute;left:50%;bottom:-11px;width:20px;height:20px;background:#fff;border-right:1.5px solid #d9cba8;border-bottom:1.5px solid #d9cba8;transform:translateX(-50%) rotate(45deg)}
+  .callout .qm{position:absolute;left:14px;top:-6px;font-family:Georgia,serif;font-size:54px;line-height:1;color:var(--gold)}
+  .callout .voice2{margin:0;font-size:18px}
   .voice2{font-size:19px;line-height:1.7;margin:10px 0;white-space:nowrap;letter-spacing:0;text-align:center}
   .sth1{font-size:21px;margin:34px 0 10px;white-space:nowrap;letter-spacing:.02em}
   .story .cap{font-weight:600}
@@ -487,7 +491,8 @@
 <section class="sec s05" id="s05">
   <div class="stitle"><span class="jp">わかっているのに<br>なぜ変われないのか</span></div>
   <span class="fx">FB 2行に</span>
-  <h2 class="voice2">「そんなことはわかっているんです」<br>「自分なりに日々向き合っています」</h2>
+  <span class="fx">FB コールアウト化</span>
+  <div class="callout"><span class="qm">“</span><h2 class="voice2">「そんなことはわかっているんです」<br>「自分なりに日々向き合っています」</h2></div>
   <p class="jp" style="margin-top:62px">こんなお声を、よくいただきます。<br><br>しかし多くの人が、「わかっている」で止まってしまっています。<br><br>そのメカニズムとは…</p>
 
   <span class="fx">FB 1行に・STORY表記なし</span>
